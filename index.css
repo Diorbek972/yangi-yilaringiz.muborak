@@ -4,5 +4,23 @@
 
 .bg-img {
     background-image: url(foto/orqa\ fon\ rasmlari.jpg);
-    
+    margin-top: 90px;
+}
+
+.adreslar {
+    margin-top: 90px;
+}
+
+.fiksed {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 30px 2px rgb(0, 0, 0);
+    z-index: 897689758767;
+}
+@media(max-width:750px){
+    .arch-img {
+    text-align: center;
+    }
 }

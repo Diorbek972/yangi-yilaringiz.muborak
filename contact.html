@@ -1,3 +1,4 @@
+!
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,48 +28,40 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">yangi yilimiz</a>
+                        <a class="nav-link" aria-current="page" href="index.html">yangi yilimiz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#a-1">tabriknoma</a>
+                        <a class="nav-link " aria-current="page" href="about.html">tabriknoma</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="contact.html">oz fikiringizni qoshing</a>
+                        <a class="nav-link active " aria-current="page" href="contact.html">oz fikiringizni qoshing</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- /navbar boshi -->
-    <!-- bosh qismini boshladm -->
+
+    <!-- email adres -->
     <section>
         <div class="container">
-            <div class="row bg-img mx-auto w-75 align-items-center rounded-4" data-aos="zoom-in">
-                <div class="col-md-6 col-lg-6">
-                    <h1 class="text-white p-4">hammani kirib kelaytgan yangi yilari bilan tabrikliman</h1>
-                    <h3 class="text-white p-4">hamma sog bulsin </h3>
-                    <h3 class="text-white p-5">Kirib kelayotgan yangi yil omadli otsin hammada</h3>
+            <form class="adreslar">
+                
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">2015-yili bolgan chiroyli hotiralar </label>
+                    <input type="text" class="form-control" placeholder="kiriting" id="exampleInputPassword1">
                 </div>
-            </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">2015-yili nmalar orzu qldingiz</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="kiriting" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">jonatish</button>
+            </form>
         </div>
     </section>
-    <!--/bosh qismini tugatim -->
-    <!-- tabriknoma -->
-    <section class="a-1" id="a-1">
-        <div class="container">
-            <div class="row my-5 align-items-center">
-                <div class="col-md-6 col-lg-6 " data-aos="zoom-in">
-                    <h1 class="py-4">Aziz dostlarm u qarndoshlarm!</h1>
-                    <h3 class="py-4">Kirib kеlayotgan yangi yil bilan sizlarni qizg’in tabriklayman.</h3>
-                    <p class="py-4">Sizlarga yangi yilda oilalaringizga shodu xurramlik, sihat-salomatlik, baxtu saodat, yangi omadlar yor bo’lishini, eng yorug’ orzu-niyatlar ushalishini chin yurakdan tilayman.</p>
-                </div>
-<div class="col-md-6 col-lg-6 arch-img" data-aos="fade-up">
-    <img src="foto/archa.jpg" class="w-75" alt="png">
-</div>
-            </div>
-        </div>
-    </section>
-    <!-- /tabriknoma  -->
+    <!-- /email adres-->
+
 
     <!-- js content -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -77,9 +70,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 3000,
+            duration: 900,
             once: false,
-            transition: "else"
+            transition: "else-in-out"
         });
     </script>
 </body>
